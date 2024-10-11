@@ -206,14 +206,18 @@ replace (
 	github.com/cloudevents/sdk-go/v2 v2.8.0 => github.com/cloudevents/sdk-go/v2 v2.15.1
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible => github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/go-git/go-git/v5 => github.com/argoproj-labs/go-git/v5 v5.4.4
+	github.com/go-git/go-git/v5 v5.4.4 => github.com/go-git/go-git/v5 v5.11.0
 	github.com/go-jose/go-jose/v3 v3.0.0 => github.com/go-jose/go-jose/v3 v3.0.1
 	github.com/labstack/echo v3.2.1+incompatible => github.com/labstack/echo/v4 v4.9.0
 	github.com/nats-io/nats-server/v2 v2.7.2 => github.com/nats-io/nats-server/v2 v2.10.2
 	github.com/nats-io/nats-streaming-server v0.24.1 => github.com/nats-io/nats-streaming-server v0.24.3
+	github.com/sirupsen/logrus v1.8.1 => github.com/sirupsen/logrus v1.9.1
 	golang.org/x/crypto v0.14.0 => golang.org/x/crypto v0.17.0
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f => golang.org/x/net v0.17.0
 	golang.org/x/net v0.17.0 => golang.org/x/net v0.23.0
+	golang.org/x/net/http2 v0.12.0 => golang.org/x/net/http2 v0.23.0
 	google.golang.org/grpc v1.44.0 => google.golang.org/grpc v1.58.3
 	google.golang.org/grpc v1.56.2 => google.golang.org/grpc v1.58.3
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b => gopkg.in/yaml.v3 v3.0.1
+
 )
