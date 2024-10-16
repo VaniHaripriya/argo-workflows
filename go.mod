@@ -62,7 +62,7 @@ require (
 	google.golang.org/grpc v1.58.3
 	gopkg.in/go-playground/webhooks.v5 v5.17.0
 	k8s.io/api v0.24.3
-	k8s.io/apimachinery v0.24.3
+	k8s.io/apimachinery v0.24.8
 	k8s.io/cli-runtime v0.24.3
 	k8s.io/client-go v0.24.3
 	k8s.io/gengo v0.0.0-20220613173612-397b4ae3bce7
@@ -265,4 +265,14 @@ require (
 	sigs.k8s.io/kustomize/kustomize/v4 v4.5.4 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.13.6 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
+)
+
+replace (
+	github.com/cloudevents/sdk-go/v2 v2.11.0 => github.com/cloudevents/sdk-go/v2 v2.15.1
+	github.com/cloudflare/circl v1.3.3 => github.com/cloudflare/circl v1.3.7
+	github.com/dgrijalva/jwt-go/v3 v3.2.0+incompatible => github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
+	github.com/labstack/echo/v3 v3.2.1+incompatible => github.com/labstack/echo/v4 v4.2.0
+	github.com/mattn/go-sqlite3 v1.9.0 => github.com/mattn/go-sqlite3 v1.14.18
+	github.com/nats-io/nats-server/v2 v2.8.1 => github.com/nats-io/nats-server/v2 v2.10.2
+	k8s.io/api v0.24.3 => k8s.io/api v0.24.8
 )
