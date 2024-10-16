@@ -53,7 +53,7 @@ require (
 	github.com/valyala/fasttemplate v1.2.2
 	github.com/xeipuuv/gojsonschema v1.2.0
 	golang.org/x/crypto v0.21.0
-	golang.org/x/exp v0.0.0-20220602145555-4a0574d9293f
+	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/sync v0.3.0
 	golang.org/x/time v0.3.0
@@ -76,7 +76,7 @@ require (
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
-	github.com/cloudflare/circl v1.3.3 // indirect
+	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/google/s2a-go v0.1.7 // indirect
 	github.com/jcmturner/aescts/v2 v2.0.0 // indirect
@@ -187,7 +187,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/lib/pq v1.10.4 // indirect
@@ -266,3 +266,9 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.13.6 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
+
+// replace (
+// 	github.com/cloudevents/sdk-go/v2 v2.11.0 => github.com/cloudevents/sdk-go/v2 v2.15.1
+// 	github.com/dgrijalva/jwt-go/v3 v3.2.0+incompatible => github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
+// 	github.com/nats-io/nats-server/v2 v2.8.1 => github.com/nats-io/nats-server/v2 v2.10.2
+// )
