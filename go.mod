@@ -267,4 +267,7 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
 
-replace github.com/labstack/echo/v3 v3.2.1+incompatible => github.com/labstack/echo/v4 v4.2.0
+replace (
+	github.com/labstack/echo/v3 v3.2.1+incompatible => github.com/labstack/echo/v4 v4.2.0
+	github.com/mattn/go-sqlite3 v1.9.0 => github.com/mattn/go-sqlite3 v1.14.18
+)
