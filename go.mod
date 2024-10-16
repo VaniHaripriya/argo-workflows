@@ -83,6 +83,10 @@ require (
 	github.com/jcmturner/dnsutils/v2 v2.0.0 // indirect
 	github.com/jcmturner/goidentity/v6 v6.0.1 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
+	github.com/labstack/echo/v4 v4.2.0 // indirect
+	github.com/labstack/gommon v0.3.0 // indirect
+	github.com/mattn/go-colorable v0.1.12 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/skeema/knownhosts v1.2.1 // indirect
 	golang.org/x/mod v0.12.0 // indirect
@@ -267,8 +271,7 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
 
-replace (
-	//github.com/labstack/echo/v3 v3.2.1+incompatible => github.com/labstack/echo/v4 v4.2.0
-	github.com/mattn/go-sqlite3 v1.9.0 => github.com/mattn/go-sqlite3 v1.14.18
+replace (	
+	github.com/mattn/go-sqlite3 v1.9.0 => github.com/mattn/go-sqlite3 v1.14.18	
 	k8s.io/api v0.24.3 => k8s.io/api v0.24.8
 )
