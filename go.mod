@@ -269,6 +269,9 @@ require (
 
 replace (
 	github.com/cloudevents/sdk-go/v2 v2.11.0 => github.com/cloudevents/sdk-go/v2 v2.15.1
+	github.com/dgrijalva/jwt-go/v3 v3.2.0+incompatible => github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
+	github.com/labstack/echo/v3 v3.2.1+incompatible => github.com/labstack/echo/v4 v4.2.0
 	github.com/mattn/go-sqlite3 v1.9.0 => github.com/mattn/go-sqlite3 v1.14.18
+	github.com/nats-io/nats-server/v2 v2.8.1 => github.com/nats-io/nats-server/v2 v2.10.2
 	k8s.io/api v0.24.3 => k8s.io/api v0.24.8
 )
