@@ -1,6 +1,6 @@
 module github.com/argoproj/argo-workflows/v3
 
-go 1.26
+go 1.26.3
 
 godebug fips140=on
 
